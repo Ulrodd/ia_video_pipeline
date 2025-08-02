@@ -14,7 +14,7 @@ Pipeline Python pour la génération automatisée de sous-titres :
 - Python
 - Whisper (OpenAI)
 - ffmpeg (via moviepy ou subprocess)
-- DeepL API (ou modèles HuggingFace/transformers selon config)
+- DeepL API (ou modèles HuggingFace/transformers selon config, les fonctions peuvent êtres décommentées)
 
 ## Fonctionnalités
 - Gestion des vidéos (listing, déplacement, extraction audio)
@@ -22,7 +22,7 @@ Pipeline Python pour la génération automatisée de sous-titres :
 - Extraction et génération de sous-titres (avec ou sans timecode)
 - Traduction automatique (API/model)
 - Montage vidéo : incrustation texte, titres, logo, fusion audio/vidéo
-- Correction manuelle possible (via widgets Jupyter)
+- Correction manuelle possible (via widgets Jupyter ou google Colab)
 
 ## Installation
 
